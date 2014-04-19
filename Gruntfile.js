@@ -23,11 +23,25 @@ module.exports = function(grunt) {
             gruntfile: {
                 files: ['gruntfile.js'],
                 tasks: ['jshint:gruntfile']
+            },
+            sass: {
+                files: ['www/css/main.scss'],
+                tasks: ['sass:dist'],
+                options: {
+                    livereload: true
+                }
             }
         },
         jshint: {
             scripts: ['<%= watch.scripts.files %>', '!www/scripts/**/*.jsx.js'],
             gruntfile: ['<%= watch.gruntfile.files %>']
+        },
+        sass: {
+            dist: {
+                files: {
+                    'www/css/main.css': 'www/css/main.scss'
+                }
+            }
         }
     });
     

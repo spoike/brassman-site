@@ -1,0 +1,104 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster|Open+Sans:300");
+
+body {
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+$brown: #b38b52;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+}
+
+.title {
+    background-color: $brown;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    overflow: hidden;
+
+    .logo {
+        position: absolute;
+        width: 200px;
+        top: 20px;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+}
+
+.main-column {
+    $colwidth: 600px;
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    width: $colwidth;
+    margin-left: -$colwidth/2;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 0;
+
+    section, article {
+        margin: 15px;
+    }
+}
+
+.switcher {
+    background-color: hsl(110, 30%, 48%);
+    text-align: center;
+    a {
+        padding: 15px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+}
+
+.characters {
+    //border: 1px solid red;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    margin-left: -25%;
+    width: 900px;
+    height: 450px;
+    transition: all 0.5s ease;
+
+    &.right {
+        left: -50%;
+        margin-left: 33%;
+    }
+
+    .character {
+        width: 350px;
+        position: absolute;
+        top: 0;
+        &.scylla {
+            left: 0;
+        }
+        &.lamp {
+            $width: 120px;
+            left: 50%;
+            width: $width;
+            margin-left: -$width/2+10px;
+            bottom: 0;
+            top: -50px;
+        }
+        &.coffee-table {
+            $width: 220px;
+            left: 50%;
+            width: $width;
+            margin-left: -$width/2+10px;
+            bottom: 0;
+            top: auto;
+        }
+        &.spoike {
+            right: 0;
+        }
+    }
+}
+

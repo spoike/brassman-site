@@ -23,9 +23,7 @@ requirejs.config({
     }
 });
 
-define(['jquery', 'bootstrap', 'react', 'jsx!timer.jsx'], function($, b, React, Timer) {
+define(['jquery', 'bootstrap', 'react', 'jsx!switchCharacter.jsx'], function($, b, React, CharacterSwitcher) {
     // Turn on bootstrap UI specific
-    $('#myButton').show();
-
-    React.renderComponent(new Timer(), $('#myOutput')[0]);
+    React.renderComponent(new CharacterSwitcher(), $('#js-switcher')[0]);
 });

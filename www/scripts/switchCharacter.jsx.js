@@ -2,14 +2,19 @@
 define(['react'], function(React) {
 
     function switchAllTo(isLeft) {
-        var cl = document.getElementsByClassName('characters')[0].classList;
-        if (isLeft) {
-           cl.add('left');
-           cl.remove('right');
-        } else {
-           cl.remove('left');
-           cl.add('right');
-       }
+        var els = document.getElementsByClassName('switchable'),
+            i,
+            cl;
+        for(i = 0; i < els.length; i++) {
+            cl = els[i].classList;
+            if (isLeft) {
+               cl.add('left');
+               cl.remove('right');
+            } else {
+               cl.remove('left');
+               cl.add('right');
+            }
+        }
     }
 
     var CharacterSwitcher = React.createClass({

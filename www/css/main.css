@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden; }
   .title .logo {
     position: absolute;
-    width: 200px;
+    width: 250px;
     top: 20px;
     left: 50%;
     margin-left: -100px; }
@@ -74,3 +74,12 @@ h1, h2, h3, h4, h5, h6 {
       top: auto; }
     .characters .character.spoike {
       right: 0; }
+
+.main-column .spoike.left {
+  display: none; }
+.main-column .spoike.right {
+  display: block; }
+.main-column .scylla.left {
+  display: block; }
+.main-column .scylla.right {
+  display: none; }

@@ -16,26 +16,9 @@
         <![endif]-->
     </head>
     <body>
-    <!--
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-                      <img src="/img/brassman_white.svg" height="20"/>
-          </a>
-        </div>
-      </div>
-    </div>
-  -->
-
     <header class="title">
       <img class="logo" src="/img/brassman_white.svg" />
-      <section class="characters">
+      <section class="switchable characters">
         <img class="character lamp" src="/img/lamp_test.png" />
         <img class="character scylla" src="/img/scylla.png" />
         <img class="character spoike" src="/img/spoike_test.png" />
@@ -43,11 +26,16 @@
       </section>
     </header>
     <section class="main-column">
-      <div class="switcher" id="js-switcher">
+      <nav class="switcher" id="js-switcher">
         <a href="javascript:void(0)">Switch Character</a>
-      </div>
-      <section>
+      </nav>
+      <section class="switchable scylla left">
         <h1>Scylla</h1>
+        <p>This article is specific for Stina Brassman.</p>
+      </section>
+      <section class="switchable spoike left">
+        <h1>Spoike</h1>
+        <p>This article is specific for Mikael Brassman.</p>
       </section>
     </section>
 

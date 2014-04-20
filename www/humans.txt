@@ -1,13 +1,10 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+# The Couple
 
-    Mikael Brassman -- Developer -- @spoike
-
-# THANKS
-
-    <name>
+    Mikael Brassman -- @spoike
+    Stina Brassman -- @scylla39
 
 # TECHNOLOGY COLOPHON
 

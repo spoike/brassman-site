@@ -18,8 +18,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     right: 0;
-    $height: 500px;
-    height: ($height + 100px);
+    $height: 380px;
+    height: $height;
     overflow: hidden;
 
     .title-bg {
@@ -58,55 +58,97 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .characters-layer {
+    width: 600px;
+    height: 380px;
     position: relative;
     top: 50px;
-    left: -208px;
-    width: 900px;
-    height: 500px;
+    left: -190px;
     transition: all 0.4s ease;
-
     &.right {
-        left: -800px;
+        left: -450px;
     }
-
     .character {
         position: absolute;
         &.scylla {
-            top: 0;
-            width: 350px;
-            left: -10px;
+            top: 32px;
+            width: 252px;
+            left: 0;
         }
         &.lamp {
-            $width: 120px;
-            left: 470px;
-            width: $width;
-            margin-left: -$width/2+10px;
-            bottom: 0;
+            left: 268px;
+            width: 100px;
             top: -50px;
         }
         &.coffee-table {
-            $width: 220px;
             left: 470px;
-            width: $width;
-            margin-left: -$width/2+10px;
-            bottom: 0;
+            width: 137px;
+            margin-left: -217px;
+            bottom: 41px;
         }
         &.spoike {
-            width: 350px;
-            right: -50px;
-            top: 20px;
+            width: 250px;
+            right: -30px;
+            top: 41px;
+        }
+    }
+}
+
+@media screen and (min-width : 600px) {
+    .title {
+        $height: 500px;
+        height: ($height + 100px);
+        .title-bg {
+            background-color: $brown;
+            height: $height;
+        }
+    }
+
+    .characters-layer {
+        left: -208px;
+        width: 900px;
+        height: 500px;
+
+        &.right {
+            left: -695px;
+        }
+
+        .character {
+            position: absolute;
+            &.scylla {
+                top: 0;
+                width: 350px;
+                left: -10px;
+            }
+            &.lamp {
+                $width: 120px;
+                left: 470px;
+                width: $width;
+                margin-left: -$width/2+10px;
+                bottom: 0;
+                top: -50px;
+            }
+            &.coffee-table {
+                $width: 220px;
+                left: 470px;
+                width: $width;
+                margin-left: -$width/2+10px;
+                bottom: 0;
+            }
+            &.spoike {
+                width: 350px;
+                right: -50px;
+                top: 20px;
+            }
         }
     }
 }
 
 .main-column {
     position: absolute;
-    top: 480px;
-    left: 50%;
-    width: 550px;
-    margin-left: -275px;
+    top: 380px;
+    left: 0;
+    width: 100%;
     background-color: white;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 0;
     margin-bottom: 50px;
 
@@ -150,6 +192,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 }
+
+@media screen and (min-width: 600px) {
+
+    .main-column {
+        top: 480px;
+        width: 550px;
+        left: 50%;
+        margin-left: -275px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+
+}
+
 
 .switcher {
     background-color: $green;

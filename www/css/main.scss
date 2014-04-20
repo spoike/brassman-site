@@ -93,38 +93,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-column {
-    $colwidth: 600px;
     position: absolute;
     top: 480px;
     left: 50%;
-    width: $colwidth;
-    margin-left: -$colwidth/2;
+    width: 600px;
+    margin-left: -300px;
     background-color: white;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 0;
+    margin-bottom: 50px;
 
     section, article {
         margin: 15px;
     }
-}
-
-.switcher {
-    background-color: $green;
-    text-align: center;
-    transition: all 0.2s ease;
-    &.right {
-        background-color: $brown;
-    }
-    a {
-        padding: 15px;
-        display: block;
-        width: 100%;
-        height: 100%;
-        color: white;
-    }
-}
-
-.main-column {
 
     .spoike {
         &.left {
@@ -143,5 +124,24 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 
+    .twitter-timeline {
+        width: 520px;
+    }
+
 }
 
+.switcher {
+    background-color: $green;
+    text-align: center;
+    transition: all 0.2s ease;
+    &.right {
+        background-color: $brown;
+    }
+    a {
+        padding: 15px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+}

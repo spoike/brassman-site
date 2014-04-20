@@ -74,9 +74,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -300px;
   background-color: white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 50px; }
   .main-column section, .main-column article {
     margin: 15px; }
+  .main-column .spoike.left {
+    display: none; }
+  .main-column .spoike.right {
+    display: block; }
+  .main-column .scylla.left {
+    display: block; }
+  .main-column .scylla.right {
+    display: none; }
+  .main-column .twitter-timeline {
+    width: 520px; }
 
 .switcher {
   background-color: #629f56;
@@ -90,12 +101,3 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     color: white; }
-
-.main-column .spoike.left {
-  display: none; }
-.main-column .spoike.right {
-  display: block; }
-.main-column .scylla.left {
-  display: block; }
-.main-column .scylla.right {
-  display: none; }

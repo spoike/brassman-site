@@ -34,7 +34,7 @@ define(['react'], function(React) {
         render: function() {
             var currentClassName = this.state.isLeft ? 'switcher left' : 'switcher right';
             return (
-                <div className={currentClassName}><a href="javascript:void(0)" onClick={this.handleSwitch}>Switch Character</a></div>
+                <div className={currentClassName}><a href="javascript:void(0)" onClick={this.handleSwitch}><span class="glyphicon glyphicon-heart-empty"></span> Switch Character <span class="glyphicon glyphicon-heart-empty"></span></a></div>
             );
         }
     });

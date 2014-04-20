@@ -7,19 +7,61 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lobster', cursive; }
 
 .title {
-  background-color: #b38b52;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 500px;
+  height: 600px;
   overflow: hidden; }
+  .title .title-bg {
+    background-color: #b38b52;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px; }
   .title .logo {
     position: absolute;
     width: 250px;
     top: 20px;
     left: 50%;
     margin-left: -100px; }
+  .title .center-axis {
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    height: 500px; }
+
+.characters-layer {
+  position: relative;
+  top: 50px;
+  left: -300px;
+  width: 900px;
+  height: 500px;
+  transition: all 0.4s ease; }
+  .characters-layer.right {
+    left: -600px; }
+  .characters-layer .character {
+    width: 350px;
+    position: absolute;
+    top: 0; }
+    .characters-layer .character.scylla {
+      left: -10px; }
+    .characters-layer .character.lamp {
+      left: 470px;
+      width: 120px;
+      margin-left: -50px;
+      bottom: 0;
+      top: -50px; }
+    .characters-layer .character.coffee-table {
+      left: 470px;
+      width: 220px;
+      margin-left: -100px;
+      bottom: 0;
+      top: auto; }
+    .characters-layer .character.spoike {
+      right: -20px;
+      top: 20px; }
 
 .main-column {
   position: absolute;
@@ -42,38 +84,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     color: white; }
-
-.characters {
-  position: relative;
-  top: 50px;
-  left: 50%;
-  margin-left: -25%;
-  width: 900px;
-  height: 450px;
-  transition: all 0.5s ease; }
-  .characters.right {
-    left: -50%;
-    margin-left: 33%; }
-  .characters .character {
-    width: 350px;
-    position: absolute;
-    top: 0; }
-    .characters .character.scylla {
-      left: 0; }
-    .characters .character.lamp {
-      left: 50%;
-      width: 120px;
-      margin-left: -50px;
-      bottom: 0;
-      top: -50px; }
-    .characters .character.coffee-table {
-      left: 50%;
-      width: 220px;
-      margin-left: -100px;
-      bottom: 0;
-      top: auto; }
-    .characters .character.spoike {
-      right: 0; }
 
 .main-column .spoike.left {
   display: none; }

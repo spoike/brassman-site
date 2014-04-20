@@ -1,12 +1,15 @@
-# humanstxt.org/
 # The humans responsible & technology colophon
 
-# The Couple
+Read more at [humanstxt.org](http://humanstxt.org). Text syntax used is Markdown.
+
+## The Couple
 
     Mikael Brassman -- @spoike
     Stina Brassman -- @scylla39
 
-# TECHNOLOGY COLOPHON
+    Happily together for four years and counting.
+
+## TECHNOLOGY COLOPHON
 
     HTML5
     CSS3
@@ -14,3 +17,7 @@
     jQuery
     Twitter Bootstrap
     RequireJS
+
+### Fonts used:
+    
+    Lobster and Open Sans from Google Font Directory

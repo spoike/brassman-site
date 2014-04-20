@@ -42,6 +42,16 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: -125px;
     }
 
+    .tagline {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 75px;
+        font-family: 'Lobster', cursive;
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+
     .center-axis {
         width: 1px;
         position: absolute;
@@ -96,8 +106,8 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 480px;
     left: 50%;
-    width: 600px;
-    margin-left: -300px;
+    width: 550px;
+    margin-left: -275px;
     background-color: white;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 0;

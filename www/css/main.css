@@ -19,13 +19,16 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     right: 0;
-    height: 500px; }
+    height: 500px;
+    transition: all 0.2s ease; }
+    .title .title-bg.right {
+      background-color: #629f56; }
   .title .logo {
     position: absolute;
     width: 250px;
     top: 20px;
     left: 50%;
-    margin-left: -100px; }
+    margin-left: -125px; }
   .title .center-axis {
     width: 1px;
     position: absolute;
@@ -42,10 +45,10 @@ h1, h2, h3, h4, h5, h6 {
   .characters-layer.right {
     left: -600px; }
   .characters-layer .character {
-    width: 350px;
-    position: absolute;
-    top: 0; }
+    position: absolute; }
     .characters-layer .character.scylla {
+      top: 0;
+      width: 350px;
       left: -10px; }
     .characters-layer .character.lamp {
       left: 470px;
@@ -57,9 +60,9 @@ h1, h2, h3, h4, h5, h6 {
       left: 470px;
       width: 220px;
       margin-left: -100px;
-      bottom: 0;
-      top: auto; }
+      bottom: 0; }
     .characters-layer .character.spoike {
+      width: 350px;
       right: -20px;
       top: 20px; }
 
@@ -77,7 +80,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .switcher {
   background-color: #629f56;
-  text-align: center; }
+  text-align: center;
+  transition: all 0.2s ease; }
+  .switcher.right {
+    background-color: #b38b52; }
   .switcher a {
     padding: 15px;
     display: block;

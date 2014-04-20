@@ -23,7 +23,7 @@ requirejs.config({
     }
 });
 
-define(['jquery', 'bootstrap', 'react', 'jsx!switchCharacter.jsx'], function($, b, React, CharacterSwitcher) {
+define(['react', 'jsx!switchCharacter.jsx'], function(React, CharacterSwitcher) {
     // Turn on bootstrap UI specific
-    React.renderComponent(new CharacterSwitcher(), $('#js-switcher')[0]);
+    React.renderComponent(new CharacterSwitcher(), document.getElementById('js-switcher'));
 });

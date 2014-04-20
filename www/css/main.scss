@@ -53,13 +53,13 @@ h1, h2, h3, h4, h5, h6 {
 .characters-layer {
     position: relative;
     top: 50px;
-    left: -300px;
+    left: -208px;
     width: 900px;
     height: 500px;
     transition: all 0.4s ease;
 
     &.right {
-        left: -600px;
+        left: -800px;
     }
 
     .character {
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
         }
         &.spoike {
             width: 350px;
-            right: -20px;
+            right: -50px;
             top: 20px;
         }
     }

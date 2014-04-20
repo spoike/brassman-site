@@ -38,12 +38,12 @@ h1, h2, h3, h4, h5, h6 {
 .characters-layer {
   position: relative;
   top: 50px;
-  left: -300px;
+  left: -208px;
   width: 900px;
   height: 500px;
   transition: all 0.4s ease; }
   .characters-layer.right {
-    left: -600px; }
+    left: -800px; }
   .characters-layer .character {
     position: absolute; }
     .characters-layer .character.scylla {
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
       bottom: 0; }
     .characters-layer .character.spoike {
       width: 350px;
-      right: -20px;
+      right: -50px;
       top: 20px; }
 
 .main-column {

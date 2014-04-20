@@ -1,0 +1,29 @@
+# The humans responsible & technology colophon
+
+Read more at [humanstxt.org](http://humanstxt.org). Text syntax used is Markdown.
+
+## The Couple
+
+    Mikael Brassman -- @spoike
+    Stina Brassman -- @scylla39
+
+    Happily together for four years and counting.
+
+## TECHNOLOGY COLOPHON
+
+    HTML5
+    CSS3
+    jQuery
+    [Twitter Bootstrap](http://getbootstrap.com/)
+    [RequireJS](http://requirejs.org/)
+    [ReactJS](http://facebook.github.io/react/)
+
+### Dev environment
+
+    Using Node.JS and Grunt to build the project. See more at the [ReactJS Playground Project](https://github.com/spoike/reactjs-playground).
+
+### Fonts
+    
+    Lobster and Open Sans from Google Font Directory.
+
+    [Glyphicons](http://glyphicons.com/) through Twitter Bootstrap is used.

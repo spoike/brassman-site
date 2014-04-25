@@ -61,35 +61,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 600px;
     height: 380px;
     position: relative;
-    top: 50px;
+    top: 60px;
     left: -190px;
     transition: all 0.4s ease;
     &.right {
-        left: -450px;
+        left: -520px;
     }
-    .character {
-        position: absolute;
-        &.scylla {
-            top: 32px;
-            width: 252px;
-            left: 0;
-        }
-        &.lamp {
-            left: 268px;
-            width: 100px;
-            top: -50px;
-        }
-        &.coffee-table {
-            left: 470px;
-            width: 137px;
-            margin-left: -217px;
-            bottom: 41px;
-        }
-        &.spoike {
-            width: 250px;
-            right: -30px;
-            top: 41px;
-        }
+    img.both {
+        width: 740px
     }
 }
 
@@ -104,41 +83,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .characters-layer {
-        left: -208px;
+        left: -328px;
         width: 900px;
         height: 500px;
 
         &.right {
-            left: -695px;
+            left: -680px;
         }
-
-        .character {
-            position: absolute;
-            &.scylla {
-                top: 0;
-                width: 350px;
-                left: -10px;
-            }
-            &.lamp {
-                $width: 120px;
-                left: 470px;
-                width: $width;
-                margin-left: -$width/2+10px;
-                bottom: 0;
-                top: -50px;
-            }
-            &.coffee-table {
-                $width: 220px;
-                left: 470px;
-                width: $width;
-                margin-left: -$width/2+10px;
-                bottom: 0;
-            }
-            &.spoike {
-                width: 350px;
-                right: -50px;
-                top: 20px;
-            }
+        img.both {
+            width: 1024px;
         }
     }
 }
